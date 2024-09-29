@@ -1,0 +1,9 @@
+name: whereis
+version: '1.0-SNAPSHOT'
+main: com.sasalivepro.whereis.Whereis
+api-version: '1.21'
+default-permission: true
+commands:
+  whereis:
+    description: プレイヤーの座標を取得します。
+    usage: "/whereis <player>"
